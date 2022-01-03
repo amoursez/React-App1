@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #482A83;
+}
+
+li, a, button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color:white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+.nav__links{
+    list-style: none;
+    
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+/* .nav__links li a{
+
+} */
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #906CD7;
+    font-size: 15px;
+    font-weight: 700;
+}
